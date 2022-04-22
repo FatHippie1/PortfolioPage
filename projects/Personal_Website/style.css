@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:576px) {}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    color: lightblue;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-skills {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#gitRepos {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    background-color: grey;
+
+
+}

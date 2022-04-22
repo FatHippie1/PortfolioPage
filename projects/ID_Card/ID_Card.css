@@ -1,0 +1,40 @@
+body {
+    background-color: #366CB7;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 100px
+}
+
+input[type=text]:focus {
+    background-color: cornflowerblue;
+}
+
+#postFullName {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#idCard {
+    padding-left: 10px;
+    font-family: "bangers", 'Times New Roman', Times, serif;
+    background-color: #AF7AD0;
+    border: 5px solid black;
+    border-radius: 25px;
+    height: 14em;
+    width: 25em;
+    margin: auto;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    float: left;
+}

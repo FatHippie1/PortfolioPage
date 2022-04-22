@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Lesson 10</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css"
+        integrity="sha384-nEnU7Ae+3lD52AK+RGNzgieBWMnEfgTbRHIwEvp1XXPdqdO6uLTd/NwXbzboqjc2" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/d063a24d6b.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--DONE Header-Name&JobTitle-->
+    <header class="header">
+        <div class="name-title">
+            <H1 class="name">Terry Lucke</H1>
+            <h3 class="title">Full Stack Developer</h3>
+        </div>
+    </header>
+
+
+    <!--Done Image-->
+    <div class="container-images">
+        <div><img src="images/HippieAndCharlyApiary.png" alt="" id="hipChar">
+        </div>
+    </div>
+    <!--DONE clickable git/linkedin/fb/instagram icons-->
+
+
+
+    <div class="container-icons">
+        <div class="col icons">
+            <a href="https://www.github.com/FatHippie1" target="_blank">
+                <i class="fab fa-github-alt fa-2x"></i>
+            </a>
+        </div>
+
+        <div class="col icons">
+            <a href="https://linkedin.com" target="_blank">
+                <i class="fab fa-brands fa-linkedin-in fa-2x"></i>
+
+            </a>
+        </div>
+
+        <div class="col icons">
+            <a href="https://www.facebook.com/charly.hippie.9" target="_blank">
+                <i class="fab fa-brands fa-facebook-square fa-2x"></i>
+            </a>
+        </div>
+
+    </div>
+    <!--DONE jQuery Hover size tranform and animation-->
+
+
+    <!--DONE List tech skills-->
+    <h4 class="container-skills">I KNOW SOME STUFF ABOUT:</h4>
+    <div class="container-skills">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>FlexBox</li>
+            <li>BootStrap</li>
+            <li>jQuery</li>
+            <li>AJAX</li>
+        </ul>
+    </div>
+    <!--DONE Dynamically list GitHub Repos Using AJAX req-->
+
+    <!--DONE Empty parent element for GitHub Repo names-->
+    <h5 class="container-skills">Check out some of my Git goods below.</h5>
+    <div id="gitRepos"></div>
+
+    <!--Sticky Footer-->
+    <div class="footer bg-light">
+        <p>
+        <h3 class="bg-light text-success">Have a great day!</h3>
+        </p>
+    </div>
+
+    <!--jQuery/JavaScript-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

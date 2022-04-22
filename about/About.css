@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+
+ul {
+
+    padding-top: 75px;
+}
+
+p {
+    font-size: xx-large;
+    text-align: center;
+
+}

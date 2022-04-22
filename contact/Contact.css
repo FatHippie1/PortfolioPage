@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+ul {
+
+    padding-top: 75px;
+}
+
+.name {
+    text-align: center;
+}
